@@ -1,3 +1,5 @@
+                                                                                            # Basic Excercise for Beginners
+
 # Excercise 1: Swap the number without using third variable
 
 def swap(a,b):
@@ -112,3 +114,42 @@ if r==x:
     print("the number is narcissist number")
 else:
     print("the number is not narcissist number")
+
+                                                                                            # PYTHON INPUT AND OUTPUT EXCERCISE 
+
+#Excercise 1: Accept number from a user
+
+name=input("Enter your name: ")
+
+#Excercise 2: Display three string "Name","is","James" as "Name**is**James"
+
+print("Name","is","James",sep="**")
+
+#Excercise 3:Convert decimal number to octal using print() output formatting
+# the octal number of decimal number 8 is 10
+
+n=int(input("Enter the decimal number: "))
+print(oct(n)[-2:])
+
+#Excercise 4: Display float number with 2 decimal places using print()
+n=float(input("Enter the float number:"))
+x=float(round(n,2))
+print(x)
+
+#Excercise 5: print all factors of a given number provided by the user.
+
+num=int(input("Enter the number: "))
+
+for i in range(1,num+1):
+    if num%i==0:
+        print(i,end=" ")
+
+#Excercise 6: Accept a list of 5 float numbers as an input from the user
+
+l=[]
+
+while len(1)<5:
+    n=float(input("Enter the number to add in a list:"))
+    l.append(n)
+
+print(l)
